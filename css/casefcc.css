@@ -1,0 +1,142 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 0;
+
+    }
+
+    body{
+        margin:0;
+        font-family: inter;
+        color: #212429
+    }
+
+    header {
+        padding: 10px 40px;
+        background: #F1EFED;
+        align-items: center;
+    }
+
+    header h1 {
+    grid-column: span 6;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.03rem;
+    }
+
+    header nav{
+        grid-column: span 6;
+        justify-self: end;
+    }
+
+    header nav a{
+       color: #333;
+       margin-left: 40px;
+       text-decoration: none;
+    }
+    
+
+    .intro{
+        background-color: #F1EFED;
+        padding: 60px 150px;
+        font-size: 40px;
+    }
+
+    .hero-image{
+        padding-top: 80px; 
+        padding-bottom: 60px; 
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, auto);
+        row-gap: 10px;
+      }
+    
+
+    main{
+        background: #E8E4D7;
+        padding: 0px 150px 100px    
+    }
+
+    .whitepanel{
+        background: #f7f7f6;
+        padding: 0px 150px 100px   
+      
+    }
+
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 80px;   
+        padding-bottom: 80px;
+        
+    }
+
+.image-box{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.spanimage {
+    grid-column: 4 / span 12;
+  }
+
+    .item1 h2{
+        font-weight: 500;
+        letter-spacing: -.03rem;
+    }
+
+    .item2 p{
+        font-weight: 400;
+        padding-left: 40px;
+        color:#333;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    .image-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: right;
+        padding-top: 30px; 
+        padding-bottom: 60px;
+    }
+
+    .list-style ol{
+        font-weight: 400;
+        padding-left: 40px;
+        color:#333;
+        list-style-type: '— ';
+        line-height: 1.4;
+        font-size: 15px;
+        list-style-position: outside;
+    }
+    
+    .cta-button{
+        background-color: #0F0817;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 50px;
+        border: none;
+    }
+    
+    .whitepanel {
+    
+        border-top: #ACB5BD 1px;
+        padding: 0px 150px 100px
+    }
+    
+
+    .footer{
+        background-color: #F1EFED;
+        padding: 60px 150px;
+        font-size: 20px;
+        line-height: 2.2rem;
+    }
+    
+
+    footer p{
+    font-size: 12px;
+    }
